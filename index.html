@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        /* Style for the container that holds all the food boxes */
+        #box-container {
+            border: 4px solid blue;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* 3 columns of equal width */
+            gap: 10px;
+        }
+
+        /* Style for the images inside the food boxes */
+        img {
+            width: 100%;
+            /* Make images fill the width of their container */
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Foods</h2>
+    <div id="box-container">
+        <!-- This is where the food items will be added dynamically by JavaScript -->
+    </div>
+    <script src="app.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+
+</html>
